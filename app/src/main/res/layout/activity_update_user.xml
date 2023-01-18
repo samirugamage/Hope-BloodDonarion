@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateUserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/NtextView"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Update Profile"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/NameUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Name"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textSize="17dp"
+            android:text="Name"></TextView>
+
+        <TextView
+            android:id="@+id/WNameUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Weight"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Enter  Weight"></EditText>
+
+        <TextView
+            android:id="@+id/HNameUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Height"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Enter Height"></EditText>
+
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textColor="#000">
+
+        </Button>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

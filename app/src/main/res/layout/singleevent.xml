@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#e6bf7c"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/blood4"
+                >
+
+            </ImageView>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/sreventName"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="name"
+                  android:layout_marginLeft="15dp"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  ></TextView>
+
+              <TextView
+                  android:id="@+id/sreventdate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="date"
+                  android:layout_marginLeft="15dp"
+                  android:textSize="20dp"
+                  android:textStyle="bold"></TextView>
+
+              <TextView
+                  android:id="@+id/sreventloc"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="location"
+                  android:layout_marginLeft="15dp"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  ></TextView>
+
+          </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/eventDel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="DELETE"
+                android:backgroundTint="#e88274"></Button>
+
+            <Button
+                android:id="@+id/eventUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="UPDATE"
+                android:backgroundTint="#ad8e40"></Button>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

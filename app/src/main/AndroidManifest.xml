@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MAD_PROJECT_HOPE"
+        tools:targetApi="31">
+        <activity
+            android:name=".community_all"
+            android:exported="false"
+            android:parentActivityName=".CommunitytabActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".your_event_view_X"
+            android:exported="false"
+            android:parentActivityName=".event_sub_menu">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity_event"
+            android:exported="false"
+            android:parentActivityName=".event_sub_menu"/>
+        <activity
+            android:name=".Event"
+            android:exported="false" />
+        <activity
+            android:name=".CommunitytabActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".HospitalRequestActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".eventView"
+            android:exported="false"
+            android:parentActivityName=".event_sub_menu"/>
+        <activity
+            android:name=".myadapterevent"
+            android:exported="false" />
+        <activity
+            android:name=".event_sub_menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".edit_Blood_Count_X"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Home_hospital"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".sign_in_hospital_X"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".sign_in_donor_X"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".signIn_X"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".register_X"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".First_Page_X"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.MAD_PROJECT_HOPE.NoActionBar" />
+        <activity
+            android:name=".Post_Wall_New_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NewPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".updateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

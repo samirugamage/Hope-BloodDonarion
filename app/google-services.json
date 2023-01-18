@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "714789495847",
+    "firebase_url": "https://blood-hope-1f587-default-rtdb.firebaseio.com",
+    "project_id": "blood-hope-1f587",
+    "storage_bucket": "blood-hope-1f587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714789495847:android:85bb73dca1d8116ea29a02",
+        "android_client_info": {
+          "package_name": "com.maverickz.mad_project_hope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714789495847-m95u03ibbki018da4h34sajmp859ffui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maverickz.mad_project_hope",
+            "certificate_hash": "559df8402b93b9a553a42134267162ad08a652d0"
+          }
+        },
+        {
+          "client_id": "714789495847-3avcvstl47063t99es12baov71n3thr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1FIpBv1SfHVp2dvtES28WMrJXm2iDXZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714789495847-3avcvstl47063t99es12baov71n3thr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
